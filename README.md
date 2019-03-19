@@ -4,6 +4,7 @@
 
 Musical genres are categorical labels created by humans to characterize pieces of music.A musical genre is characterized by the common characteristics shared by its members. These characteristics typically are related to the instrumentation, rhythmic structure, and harmonic content of the music. Genre hierarchies are commonly used to structure the large collections of music available on the Web. Currently musical genre annotation is performed manually. Automatic musical genre classification can assist or replace the human user in this process and would be a valuable addition to music information retrieval systems. In addition, automatic musical genre classification provides a frame- work for developing and evaluating features for any type of con- tent-based analysis of musical signals.
 This project is an implementation of music genre classification of audio signals based on machine learning techniques with python language. The main idea and theoretical approaches with their results are published in [this paper](https://pdfs.semanticscholar.org/4ccb/0d37c69200dc63d1f757eafb36ef4853c178.pdf).
+##
 
 #### To use this work on your researches or projects you need:
 * Python 3.7.0
