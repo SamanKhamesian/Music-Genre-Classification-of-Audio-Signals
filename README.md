@@ -1,3 +1,5 @@
+# Music-Genre-Classification-of-Audio-Signlas
+
 ### Abstract
 
 Musical genres are categorical labels created by humans to characterize pieces of music.A musical genre is characterized by the common characteristics shared by its members. These characteristics typically are related to the instrumentation, rhythmic structure, and harmonic content of the music. Genre hierarchies are commonly used to structure the large collections of music available on the Web. Currently musical genre annotation is performed manually. Automatic musical genre classification can assist or replace the human user in this process and would be a valuable addition to music information retrieval systems. In addition, automatic musical genre classification provides a frame- work for developing and evaluating features for any type of con- tent-based analysis of musical signals.
@@ -43,11 +45,11 @@ pip3 install --upgrade pip
 ~~~~
 ##
 
-#### Dataset
+#### Dataset:
 * The files that used were stored as 22 050 Hz, 16-bit, mono audio files. An effort was made to ensure that the training sets are representative of the corresponding musical genres. The Genres dataset has the following classes: classical, country, disco, hiphop, jazz, rock, blues, reggae, pop, metal. I use [GTZAN Genre Collection](http://opihi.cs.uvic.ca/sound/genres.tar.gz) for the dataset.
 ##
 
-#### Information about the files
+#### Information about the files:
 * config.py file includes some properties like dataset directory, test directory and some properties for signal processing and feature extraction.
 * Utilities.py file includes useful variables and functions shared between multiple files.
 * CreateDataset.py file is used for feature extraction and creating dataset.
