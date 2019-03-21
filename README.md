@@ -33,7 +33,7 @@ sudo apt-get install python3
 
 #### To install packages via pip install:
 ~~~~
-sudo pip3 install ipython scipy numpy pandas scikit-learn librosa matplotlib jupyter pydub
+sudo pip3 install ipython numpy scipy pandas scikit-learn librosa matplotlib pydub
 ~~~~
 _If you haven't installed pip, you can use the codes below in your terminal_:
 ~~~~
