@@ -9,14 +9,12 @@ This project is an implementation of music genre classification of audio signals
 #### To use this work on your researches or projects you need:
 * Python 3.7.0
 * Python packages:
-	* IPython
-	* Numpy
-	* Scipy
-	* Pandas
-	* Scikit-learn
-	* Librosa
-	* Matplotlib
-	* Pydub
+	* pandas
+	* librosa
+	* numpy
+	* joblib
+	* scikit_learn
+
 ##
 
 #### To install Python:
@@ -33,7 +31,8 @@ sudo apt-get install python3
 
 #### To install packages via pip install:
 ~~~~
-sudo pip3 install ipython numpy scipy pandas scikit-learn librosa matplotlib pydub
+sudo pip3 install pandas librosa numpy joblib scikit_learn
+
 ~~~~
 _If you haven't installed pip, you can use the codes below in your terminal_:
 ~~~~
