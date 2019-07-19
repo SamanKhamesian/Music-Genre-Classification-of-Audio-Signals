@@ -46,6 +46,8 @@ pip3 install --upgrade pip
 
 #### Dataset:
 * The files that used were stored as 22 050 Hz, 16-bit, mono audio files. An effort was made to ensure that the training sets are representative of the corresponding musical genres. The Genres dataset has the following classes: classical, country, disco, hiphop, jazz, rock, blues, reggae, pop, metal. I use [GTZAN Genre Collection](http://opihi.cs.uvic.ca/sound/genres.tar.gz) for the dataset.
+
+* NOTE : PLEASE DOWNLOAD THE DATASET AND STORE THEM IN CORRECT PATH BEFORE RUNNING PROJECT
 ##
 
 #### Information about the files:
