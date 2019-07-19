@@ -29,17 +29,15 @@ def get_sample_arrays(folder_name):
 
 def main():
     labels = []
-    is_created = False
+    dataset_numpy = None
     genres = get_subdirectories(DATASET_DIR)
-
     for genre in genres:
         signals = get_sample_arrays(genre)
         for signal in signals:
             row = extract_features(signal)
-            if not is_created:
+            if dataset_numpy is None:
                 dataset_numpy = numpy.array(row)
-                is_created = True
-            elif is_created:
+            else:
                 dataset_numpy = numpy.vstack((dataset_numpy, row))
 
             labels.append(genre)

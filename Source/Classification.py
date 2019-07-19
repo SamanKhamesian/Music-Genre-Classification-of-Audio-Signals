@@ -2,7 +2,7 @@ import joblib
 import sklearn
 
 from Source.Utilities import *
-from config import Test, Model, CreateDataset
+from config import Test, Model
 
 PATH = librosa.util.find_files(Test.DATA_PATH)
 
