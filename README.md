@@ -1,4 +1,4 @@
-# Music-Genre-Classification-of-Audio-Signlas
+# Music-Genre-Classification-of-Audio-Signals
 
 ### Abstract
 
